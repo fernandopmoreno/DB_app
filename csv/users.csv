@@ -1,0 +1,121 @@
+nombre,apellidos,dni,email,teléfono,fecha de nacimiento,sección,agrupación,papel,atril,isla,municipio,empadronamiento,trabajo,estudios,matrícula,activa
+Mamen,Escribano,62462438F,xbalaguer@example.com,+34942809350,1991-11-25,Dirección,Empresa Externa,Músico,1,Lanzarote,Teguise,San Bartolomé,Productor/a musical,Grado en Música,1349HKW,False
+Pastor,Millán,13045423x,amarogutierrez@example.com,+34878 94 79 08,1978-07-22,Contrabajo,Ensemble,Músico,1,La Palma,Los Llanos de Aridane,Los Llanos de Aridane,Autónomo/a,Grado en Ingeniería,4933BLS,False
+Néstor,Costa,26572295I,,,,Piano,Coro,Colaborador,,,,,,,,True
+Aitor,Llorens,06465389O,,,,Arpa,Ensemble,Invitado,,,,,,,,False
+Emilia,Adadia,91931298B,charo26@example.org,+34842 04 17 76,1996-06-25,Percusión,Empresa Externa,Colaborador,1,Tenerife,Santa Cruz de Tenerife,Adeje,Productor/a musical,Educación Secundaria,2009SHB,True
+Valerio,Águila,93480013Y,ygrande@example.com,+34982 01 74 34,2007-01-20,Oboe,Colaboradores,Músico,1,Gran Canaria,Las Palmas de Gran Canaria,Telde,Empresario/a,Grado en Ingeniería,3508NGJ,True
+Leonardo,Guitart,48561628i,fguerra@example.net,+34879 04 51 18,1975-03-13,Soprano (coro),Coro,Músico,1,La Palma,Santa Cruz de La Palma,Santa Cruz de La Palma,Empresario/a,Bachillerato,1256LMD,False
+Paco,Vazquez,23345435F,huguetesperanza@example.com,+34843560316,2000-09-10,Piano,Colaboradores,Invitado,2,La Gomera,San Sebastián de La Gomera,Valle Gran Rey,Músico/a profesional,Grado en Música,4110VFR,True
+Gerardo,Lloret,20401522z,,,,Percusión,Ensemble,Colaborador,,,,,,,,False
+Priscila,Viñas,13257816J,xcarreno@example.com,+34886815649,1975-11-19,Tuba,Empresa Externa,Empresa Externa,1,La Palma,Santa Cruz de La Palma,Los Llanos de Aridane,Desempleado/a,Educación Secundaria,9123BFZ,False
+Felipe,Capdevila,49594180U,gloria74@example.com,+34886740001,2004-11-15,Contrabajo,Colaboradores,Colaborador,2,Fuerteventura,La Oliva,Puerto del Rosario,Productor/a musical,Sin estudios superiores,7504TMS,True
+Martín,Verdugo,38921489w,ocoronado@example.org,+34941873706,1988-09-05,Flauta,Empresa Externa,Invitado,1,La Graciosa,Caleta de Sebo,Caleta de Sebo,Estudiante,Grado en Música,6170TYY,False
+Ángela,Ros,09852921t,,,,Dirección,Orquesta,Empresa Externa,,,,,,,,False
+Reyna,Santamaría,85901379s,vera29@example.net,+34823 942 296,1966-08-29,Percusión,Empresa Externa,Músico,3,Lanzarote,San Bartolomé,San Bartolomé,Técnico/a de sonido,Educación Secundaria,4219LJF,True
+Eric,Palomino,83061280t,chus95@example.org,+34 920 695 135,1955-11-20,Fagot,Coro,Invitado,1,La Gomera,San Sebastián de La Gomera,San Sebastián de La Gomera,Técnico/a de sonido,Formación Profesional,2202TLB,True
+Eva María,Pedro,23409593g,acaceres@example.org,+34 701277211,1963-08-18,Invitados,Colaboradores,Colaborador,1,Tenerife,Santa Cruz de Tenerife,Adeje,Administrativo/a,Bachillerato,4611ZCJ,False
+Custodia,Isern,57999480F,montserratetelvina@example.org,+34 866 76 93 81,1978-09-28,Trombón,Coro,Invitado,1,Lanzarote,Arrecife,Teguise,Productor/a musical,Máster en Interpretación,2708XSG,True
+Vasco,Samper,86121539u,vchacon@example.net,+34877208918,1958-08-18,Percusión,Ensemble,Empresa Externa,4,La Gomera,Valle Gran Rey,San Sebastián de La Gomera,Productor/a musical,Doctorado en Música,8311GSN,False
+Celestina,Arcos,75565510i,dballester@example.com,+34885 507 959,1986-04-20,Soprano (coro),Coro,Empresa Externa,2,Gran Canaria,Santa Lucía,Las Palmas de Gran Canaria,Autónomo/a,Formación Profesional,1938YNK,False
+Manu,Pablo,96851669v,marcela62@example.net,+34 871 28 80 32,1997-08-02,Bajo (coro),Colaboradores,Colaborador,1,La Graciosa,Caleta de Sebo,Caleta de Sebo,Productor/a musical,Bachillerato,3579FXN,False
+Celia,Borja,43115936t,alcaldejeronimo@example.net,+34 921 241 153,1976-07-30,Solista,Orquesta,Músico,1,Gran Canaria,Las Palmas de Gran Canaria,Santa Lucía,Estudiante,Educación Secundaria,2121HGM,True
+Catalina,Acosta,21700539w,,,,Flauta,Ensemble,Invitado,,,,,,,,True
+María,Lillo,75308709M,maristela99@example.com,+34981 104 984,1970-08-12,Arpa,Colaboradores,Invitado,2,Fuerteventura,Puerto del Rosario,Pájara,Profesor/a,Formación Profesional,2709FBG,True
+Candelas,Villena,91332647o,,,,Arpa,Colaboradores,Músico,,,,,,,,False
+Amor,Canales,99557923L,opelaez@example.net,+34885 79 50 65,1965-07-27,Percusión,Colaboradores,Colaborador,5,Tenerife,Adeje,La Laguna,Autónomo/a,Educación Secundaria,2600BJW,True
+Felipa,Gimenez,79707458n,bernabe56@example.org,+34 883664495,1966-04-19,Flauta,Colaboradores,Músico,3,Fuerteventura,La Oliva,Pájara,Productor/a musical,Grado en Música,2369FWW,False
+Pánfilo,Tormo,88105507c,natividadsole@example.org,+34926 44 01 23,1993-12-17,Contrafagot,Orquesta,Músico,1,Gran Canaria,Las Palmas de Gran Canaria,Telde,Profesor/a,Máster en Interpretación,3407VLM,False
+Cloe,Roura,87087195P,ileon@example.com,+34 708 38 12 73,2000-04-25,Trombón,Orquesta,Empresa Externa,2,Tenerife,Santa Cruz de Tenerife,Adeje,Ingeniero/a,Grado en Ingeniería,8337JKN,True
+Paz,Sanchez,63908004x,hmiro@example.com,+34 845 12 66 31,1995-07-10,Flauta,Orquesta,Músico,4,La Palma,Santa Cruz de La Palma,Santa Cruz de La Palma,Empresario/a,Sin estudios superiores,7569XYR,False
+Francisco Jose,Olivera,59291481s,kgonzalez@example.org,+34 971638464,1986-11-08,Violín segundo,Colaboradores,Empresa Externa,1,Tenerife,Santa Cruz de Tenerife,Santa Cruz de Tenerife,Productor/a musical,Sin estudios superiores,8169FXM,True
+Tania,Acuña,50742960E,lmenendez@example.org,+34 925 342 880,1980-07-10,Violonchelo,Ensemble,Empresa Externa,1,Fuerteventura,Pájara,Puerto del Rosario,Desempleado/a,Sin estudios superiores,6282YYG,False
+Daniel,Llanos,11811456d,ramondiana@example.net,+34710 65 76 28,1966-06-19,Tenor (coro),Orquesta,Empresa Externa,1,Gran Canaria,Las Palmas de Gran Canaria,Telde,Técnico/a de sonido,Doctorado en Música,2724MVN,False
+Jenny,Lumbreras,04005892p,elorzaclimaco@example.net,+34 846 99 57 82,1955-11-22,Requinto,Coro,Músico,1,El Hierro,Valverde,La Frontera,Autónomo/a,Máster en Interpretación,3637RNP,False
+Filomena,Larrañaga,93205423z,chema29@example.org,+34 945 311 873,1973-04-19,Solista,Coro,Empresa Externa,2,La Gomera,Valle Gran Rey,San Sebastián de La Gomera,Profesor/a,Bachillerato,6077DNT,True
+Leocadia,Sobrino,61488348R,pancho15@example.net,+34971 27 40 69,1956-10-16,Tenor (coro),Coro,Músico,2,La Palma,Santa Cruz de La Palma,Los Llanos de Aridane,Productor/a musical,Formación Profesional,1196KGW,False
+Tiburcio,Borja,02561844H,,,,Colaboradores,Colaboradores,Colaborador,,,,,,,,True
+Víctor,Montaña,60015446z,vivianacespedes@example.com,+34842 56 98 89,1976-04-03,Bombardino,Ensemble,Músico,1,Lanzarote,Arrecife,Teguise,Profesor/a,Educación Secundaria,4828PFG,False
+Fidela,Ferrera,25706893Y,romuloordonez@example.net,+34946 417 621,1963-01-29,Soprano (coro),Coro,Empresa Externa,3,Gran Canaria,Las Palmas de Gran Canaria,Las Palmas de Gran Canaria,Empresario/a,Formación Profesional,4809YNG,False
+Jordana,Román,56034010J,joan80@example.org,+34 842 12 38 41,1970-06-04,Bajo (coro),Empresa Externa,Músico,2,El Hierro,La Frontera,Valverde,Autónomo/a,Sin estudios superiores,4216DKD,False
+Ricarda,Solís,42884973L,garzongabriel@example.com,+34 806879027,1964-03-12,Alto (coro),Colaboradores,Músico,1,Gran Canaria,Santa Lucía,Santa Lucía,Autónomo/a,Grado en Ingeniería,7717PNB,True
+Graciana,Beltran,51458042I,wblazquez@example.com,+34 882 82 44 02,1969-12-17,Percusión,Coro,Empresa Externa,6,Fuerteventura,La Oliva,Puerto del Rosario,Ingeniero/a,Máster en Interpretación,1519HBF,False
+Eutropio,Diaz,29906054k,allabres@example.com,+34 922 82 04 15,1973-12-19,Colaboradores,Ensemble,Empresa Externa,2,Tenerife,Santa Cruz de Tenerife,La Laguna,Productor/a musical,Bachillerato,1951WDV,False
+Raúl,Villalobos,75381912c,marianobustos@example.org,+34842 649 525,1963-08-12,Trompa,Colaboradores,Músico,1,El Hierro,La Frontera,La Frontera,Técnico/a de sonido,Grado en Música,7754JZP,False
+Florencio,Bueno,56566659e,candidoreyes@example.org,+34 972101351,1986-11-03,Violonchelo,Colaboradores,Colaborador,2,Gran Canaria,Telde,Telde,Músico/a profesional,Grado en Música,9087KWF,True
+Rosalinda,Guzmán,00249997r,praya@example.org,+34 826 00 47 35,1978-12-14,Órgano,Ensemble,Invitado,1,La Palma,Los Llanos de Aridane,Santa Cruz de La Palma,Ingeniero/a,Grado en Ingeniería,9104GVJ,True
+Paz,Samper,22206156E,,,,Violín primero,Empresa Externa,Colaborador,,,,,,,,True
+Espiridión,Calvet,63648348t,,,,Contrafagot,Colaboradores,Colaborador,,,,,,,,True
+Aroa,Bertrán,93909603O,juan-manuel96@example.org,+34 881 27 08 62,1995-05-26,Coach vocal,Orquesta,Empresa Externa,1,La Graciosa,Caleta de Sebo,Caleta de Sebo,Estudiante,Grado en Ingeniería,8612CSR,False
+Cruz,Collado,81531675B,elastra@example.org,+34958 221 418,1985-11-04,Solista,Coro,Invitado,3,Lanzarote,Teguise,San Bartolomé,Productor/a musical,Doctorado en Música,1742LMC,False
+Severo,Coca,21068808Z,,,,Percusión,Empresa Externa,Colaborador,,,,,,,,True
+Cloe,Ródenas,20029565v,,,,Colaboradores,Orquesta,Empresa Externa,,,,,,,,False
+Juan,Ayuso,54127186y,concepcion75@example.com,+34 881 115 906,1983-11-13,Contrabajo,Colaboradores,Invitado,3,El Hierro,Valverde,Valverde,Empresario/a,Bachillerato,6925HBY,True
+Héctor,Blanes,96244311g,,,,Trompeta,Ensemble,Colaborador,,,,,,,,False
+Jose,Santana,69369298x,unavarro@example.com,+34741725824,2005-03-13,Transportes,Orquesta,Empresa Externa,1,La Graciosa,Caleta de Sebo,Caleta de Sebo,Técnico/a de sonido,Grado en Música,6394HYN,False
+Leocadio,Lopez,47435074g,aaroncoll@example.org,+34 873 43 83 57,1962-11-15,Transportes,Ensemble,Colaborador,2,La Graciosa,Caleta de Sebo,Caleta de Sebo,Desempleado/a,Sin estudios superiores,9293GGR,True
+Manuel,Delgado,50531709o,,,,Coach vocal,Ensemble,Invitado,,,,,,,,True
+Inocencio,Sancho,64249716Q,irma80@example.com,+34723830996,2006-11-30,Alto (coro),Colaboradores,Invitado,2,La Gomera,San Sebastián de La Gomera,San Sebastián de La Gomera,Desempleado/a,Grado en Música,6110GST,True
+Maura,Santamaría,90509229N,leireocana@example.net,+34900 278 483,1963-05-20,Trompa,Colaboradores,Empresa Externa,2,Tenerife,Santa Cruz de Tenerife,Santa Cruz de Tenerife,Estudiante,Bachillerato,4916DGP,True
+Sara,Iglesia,10189317o,telloolivia@example.com,+34946 097 873,1994-07-20,Requinto,Empresa Externa,Invitado,2,El Hierro,Valverde,La Frontera,Profesor/a,Sin estudios superiores,5699FJZ,False
+Rebeca,Salas,85726106X,teofilo22@example.net,+34 854 499 566,1994-09-08,Arpa,Orquesta,Músico,4,Tenerife,Arona,Arona,Productor/a musical,Educación Secundaria,2427ZSW,False
+Etelvina,Arroyo,35089849x,domingalujan@example.com,+34748617694,1960-12-04,Percusión,Coro,Colaborador,8,La Graciosa,Caleta de Sebo,Caleta de Sebo,Desempleado/a,Sin estudios superiores,8634YNJ,True
+Azucena,Pedro,30839487T,,,,Clarinete,Ensemble,Colaborador,,,,,,,,True
+Evelia,Amorós,40485142p,samperroque@example.com,+34 803 051 657,2000-05-15,Violonchelo,Empresa Externa,Colaborador,3,Fuerteventura,Puerto del Rosario,Puerto del Rosario,Productor/a musical,Grado en Música,3263SYJ,False
+Fabio,Camino,72791208c,rurena@example.com,+34847 264 202,1956-03-03,Bajo (coro),Coro,Empresa Externa,3,La Palma,Los Llanos de Aridane,Los Llanos de Aridane,Productor/a musical,Formación Profesional,5035CYS,False
+Martín,Barriga,21873297b,ocabrero@example.org,+34 845745665,1963-10-04,Piano,Orquesta,Músico,3,Fuerteventura,Pájara,Puerto del Rosario,Desempleado/a,Grado en Música,3194JXC,False
+Marta,Pavón,31262686s,diegoanton@example.net,+34876 79 61 34,2001-10-07,Alto (coro),Colaboradores,Empresa Externa,3,Lanzarote,San Bartolomé,Teguise,Autónomo/a,Doctorado en Música,3424XKL,True
+Marco,Rosell,98286820S,maria-dolores01@example.com,+34842 40 01 07,1996-04-14,Violín primero,Coro,Músico,2,El Hierro,Valverde,La Frontera,Estudiante,Sin estudios superiores,8204VCC,True
+Manuela,Luna,45182566u,victorino94@example.com,+34 947497031,1996-08-20,Violín primero,Ensemble,Colaborador,3,Gran Canaria,Telde,Las Palmas de Gran Canaria,Profesor/a,Grado en Música,7073ZKX,False
+Ibán,Alonso,17849467v,yagoabad@example.org,+34832337305,1959-07-26,Violonchelo,Empresa Externa,Empresa Externa,4,Fuerteventura,La Oliva,La Oliva,Empresario/a,Grado en Música,1022PGX,False
+Marc,Osorio,38270520v,alondraalfonso@example.org,+34 820 90 73 07,1969-05-10,Oboe,Orquesta,Empresa Externa,2,Fuerteventura,La Oliva,La Oliva,Ingeniero/a,Sin estudios superiores,7660WXK,False
+Rafa,Pina,96657490z,bermudezeufemia@example.org,+34 841 73 97 07,1976-05-14,Contrafagot,Empresa Externa,Colaborador,3,El Hierro,Valverde,La Frontera,Empresario/a,Máster en Interpretación,4880SSP,False
+Natividad,Perelló,36735283X,ruy58@example.org,+34 883 353 255,1961-02-14,Contrabajo,Orquesta,Empresa Externa,4,El Hierro,La Frontera,La Frontera,Ingeniero/a,Grado en Ingeniería,5068XYK,True
+Fausto,Tamarit,98378758P,sblanco@example.net,+34 933 802 084,1958-09-03,Saxofón,Colaboradores,Músico,1,La Gomera,San Sebastián de La Gomera,Valle Gran Rey,Técnico/a de sonido,Máster en Interpretación,1650NZV,False
+Trinidad,Garay,38536455W,peiroprimitivo@example.org,+34 884557098,2006-10-29,Percusión,Colaboradores,Invitado,9,La Palma,Los Llanos de Aridane,Santa Cruz de La Palma,Autónomo/a,Grado en Ingeniería,5559KSP,True
+Ciríaco,Mendizábal,00204602V,,,,Viola,Colaboradores,Colaborador,,,,,,,,False
+Julián,Puerta,57603755G,castejonamanda@example.org,+34982 22 36 95,1967-11-20,Percusión,Colaboradores,Músico,10,La Gomera,San Sebastián de La Gomera,San Sebastián de La Gomera,Desempleado/a,Grado en Ingeniería,9357NSR,False
+Lisandro,Prado,88098696Z,kcalderon@example.net,+34 983 341 342,1987-06-13,Bombardino,Empresa Externa,Colaborador,2,Tenerife,Santa Cruz de Tenerife,Arona,Empresario/a,Máster en Interpretación,9786WCR,True
+Primitivo,Iniesta,25073029D,,,,Coach vocal,Coro,Empresa Externa,,,,,,,,True
+Matilde,Milla,52759715U,pmendez@example.net,+34972 06 75 87,2004-08-12,Soprano (coro),Empresa Externa,Colaborador,4,Tenerife,Adeje,La Laguna,Estudiante,Grado en Ingeniería,1209MVV,False
+Lupe,Asenjo,47096978K,donososilvio@example.com,+34 876 79 86 43,1960-03-30,Viola,Empresa Externa,Empresa Externa,2,Gran Canaria,Santa Lucía,Santa Lucía,Productor/a musical,Máster en Interpretación,3928PMT,True
+Seve,Moraleda,22102998X,vicentasarabia@example.net,+34 827 02 41 82,1992-12-17,Contrabajo,Ensemble,Músico,5,Gran Canaria,Las Palmas de Gran Canaria,Las Palmas de Gran Canaria,Productor/a musical,Bachillerato,5008DXG,True
+Roberta,Maza,43906022Q,omendoza@example.org,+34 841 345 748,1994-11-25,Contrabajo,Colaboradores,Colaborador,6,Gran Canaria,Las Palmas de Gran Canaria,Telde,Estudiante,Doctorado en Música,4063MSP,True
+Pío,Calvo,13073184D,,,,Trombón,Empresa Externa,Colaborador,,,,,,,,True
+Ceferino,Pereira,87489928v,rcalatayud@example.net,+34 830 60 97 38,1987-10-24,Flauta,Coro,Colaborador,5,Lanzarote,Teguise,San Bartolomé,Productor/a musical,Bachillerato,9733KWF,False
+Elisa,Girón,46368312G,matasluna@example.com,+34702 244 656,1983-03-25,Transportes,Empresa Externa,Invitado,3,La Palma,Los Llanos de Aridane,Los Llanos de Aridane,Administrativo/a,Grado en Ingeniería,8383YSP,True
+Xavier,Belda,49497965O,baqueroazahar@example.org,+34866 569 739,1994-09-22,Trompa,Colaboradores,Empresa Externa,3,La Gomera,Valle Gran Rey,Valle Gran Rey,Estudiante,Bachillerato,4366KXG,True
+Moreno,Casares,26425821u,hlinares@example.net,+34828 90 85 88,1996-01-12,Bajo (coro),Colaboradores,Músico,4,La Palma,Santa Cruz de La Palma,Santa Cruz de La Palma,Estudiante,Grado en Ingeniería,2450MKS,False
+Florina,Ruiz,54068816D,egarriga@example.org,+34 987071079,1957-11-02,Piano,Colaboradores,Músico,4,El Hierro,La Frontera,La Frontera,Ingeniero/a,Grado en Música,6510PBV,False
+Ignacio,Salom,41279239l,,,,Piano,Ensemble,Invitado,,,,,,,,False
+Sigfrido,Uriarte,54759597j,comaspaulino@example.net,+34886454168,1969-06-24,Alto (coro),Empresa Externa,Colaborador,4,La Gomera,San Sebastián de La Gomera,San Sebastián de La Gomera,Estudiante,Sin estudios superiores,1336KSR,False
+Nereida,Bustos,94674983C,leon00@example.org,+34746 82 47 77,1976-11-29,Trombón,Ensemble,Invitado,4,Gran Canaria,Santa Lucía,Santa Lucía,Administrativo/a,Educación Secundaria,5210FLM,False
+Lisandro,Jover,20014917Z,ucifuentes@example.net,+34843838632,1998-10-04,Clarinete,Empresa Externa,Invitado,2,La Palma,Los Llanos de Aridane,Los Llanos de Aridane,Músico/a profesional,Doctorado en Música,4914KWC,False
+Florentino,Pont,17222626u,adalberto48@example.org,+34881 258 354,1984-01-21,Contrabajo,Ensemble,Músico,7,Lanzarote,San Bartolomé,Teguise,Músico/a profesional,Máster en Interpretación,6450WZT,False
+Cristian,Niño,77125818c,juan-franciscoprats@example.org,+34924080558,1964-05-01,Trompa,Colaboradores,Invitado,4,Tenerife,La Laguna,Arona,Ingeniero/a,Máster en Interpretación,8928FCF,False
+Ciriaco,Ropero,85366976E,monrealkike@example.com,+34985 95 38 32,1992-05-20,Saxofón,Colaboradores,Músico,2,Fuerteventura,Pájara,Puerto del Rosario,Técnico/a de sonido,Sin estudios superiores,4639YSF,False
+Edmundo,Guillen,56505229R,qgargallo@example.com,+34943 39 34 20,1961-06-07,Invitados,Orquesta,Colaborador,2,La Graciosa,Caleta de Sebo,Caleta de Sebo,Desempleado/a,Doctorado en Música,3186VVY,True
+Albert,Tejero,39742718d,mbermejo@example.net,+34 987 11 26 14,1977-05-09,Invitados,Coro,Músico,3,La Gomera,San Sebastián de La Gomera,Valle Gran Rey,Desempleado/a,Máster en Interpretación,2961GFY,False
+Cintia,Miranda,05861403S,efrain85@example.com,+34 980 756 423,1974-11-14,Tuba,Ensemble,Músico,2,Lanzarote,Teguise,San Bartolomé,Administrativo/a,Máster en Interpretación,4088FCC,False
+Gabino,Calderon,84401327a,anayaemiliana@example.org,+34806 86 96 79,2003-11-20,Transportes,Orquesta,Colaborador,4,El Hierro,Valverde,Valverde,Productor/a musical,Doctorado en Música,2184MZV,True
+Samanta,Arribas,26942627P,salgadoanabel@example.com,+34882 78 77 16,2003-04-19,Piano,Coro,Invitado,6,Fuerteventura,Pájara,Pájara,Músico/a profesional,Sin estudios superiores,3286YCS,True
+Flora,Peinado,51748452J,rogeliojulian@example.org,+34749 418 124,1999-11-06,Flauta,Coro,Colaborador,6,La Graciosa,Caleta de Sebo,Caleta de Sebo,Desempleado/a,Bachillerato,4806RNW,False
+Casandra,Olivares,19815916L,rmontana@example.net,+34 979 373 067,2002-01-15,Trompa,Empresa Externa,Invitado,5,Lanzarote,Teguise,Teguise,Técnico/a de sonido,Grado en Ingeniería,5343LXG,False
+Rodrigo,Bas,08977266d,vascocasas@example.net,+34887 568 230,1982-08-20,Colaboradores,Colaboradores,Músico,4,Tenerife,La Laguna,Adeje,Productor/a musical,Máster en Interpretación,7825LSN,False
+Guiomar,Barbero,59451356j,,,,Transportes,Empresa Externa,Colaborador,,,,,,,,False
+Ligia,Baeza,63810813e,bibiana30@example.net,+34845 87 68 70,1984-02-24,Contrafagot,Empresa Externa,Empresa Externa,4,La Graciosa,Caleta de Sebo,Caleta de Sebo,Empresario/a,Educación Secundaria,6589GGM,True
+Hernán,Goicoechea,01413358r,,,,Violín primero,Orquesta,Músico,,,,,,,,False
+Flora,Batalla,92446405Y,rharo@example.net,+34 800906013,1993-10-20,Saxofón,Orquesta,Músico,3,Gran Canaria,Las Palmas de Gran Canaria,Santa Lucía,Desempleado/a,Grado en Ingeniería,1770KNK,True
+Fortunata,Arana,71335066V,,,,Piano,Colaboradores,Músico,,,,,,,,False
+Bernardo,Busquets,91031747D,moralesclaudia@example.com,+34886791558,1988-04-25,Violonchelo,Colaboradores,Músico,5,La Gomera,San Sebastián de La Gomera,Valle Gran Rey,Profesor/a,Grado en Música,8914NCF,False
+Juan José,Corominas,47670788j,tescriva@example.com,+34883 839 977,1986-01-21,Requinto,Colaboradores,Músico,3,La Graciosa,Caleta de Sebo,Caleta de Sebo,Administrativo/a,Grado en Ingeniería,7461JLH,True
+Gema,Andreu,00128392S,alfredo00@example.com,+34 967 52 02 63,1973-06-23,Alto (coro),Ensemble,Colaborador,5,Tenerife,La Laguna,Adeje,Músico/a profesional,Máster en Interpretación,6570WPD,False
+Miguel Ángel,Cabañas,44196533R,emigdio67@example.net,+34 731 908 673,1990-01-21,Contrafagot,Ensemble,Músico,5,La Graciosa,Caleta de Sebo,Caleta de Sebo,Empresario/a,Máster en Interpretación,6973JKH,False
+Jose Manuel,Andres,61561319W,manzanolupe@example.com,+34 973426512,1999-06-03,Trombón,Ensemble,Invitado,5,La Graciosa,Caleta de Sebo,Caleta de Sebo,Profesor/a,Máster en Interpretación,5926WFM,True
+Rosalva,Estrada,77052044P,lucasjose-ignacio@example.com,+34985 87 55 06,1958-03-29,Bombardino,Ensemble,Colaborador,3,Gran Canaria,Telde,Santa Lucía,Ingeniero/a,Sin estudios superiores,4698CPB,False
+Ale,Hurtado,69396869p,malotono@example.org,+34884 48 53 23,1962-09-13,Saxofón,Coro,Empresa Externa,4,La Gomera,Valle Gran Rey,Valle Gran Rey,Productor/a musical,Grado en Música,7045TPN,True
+Francisco Jose,Quevedo,00970737t,,,,Bombardino,Colaboradores,Colaborador,,,,,,,,False
+Bartolomé,Benítez,00245166I,ginerjenaro@example.org,+34 823767757,2001-09-24,Trombón,Colaboradores,Invitado,6,Gran Canaria,Santa Lucía,Santa Lucía,Músico/a profesional,Grado en Música,4807RFM,False
+Leoncio,Tomas,91101642U,esparzazoraida@example.org,+34 875 51 78 67,1989-01-04,Soprano (coro),Colaboradores,Empresa Externa,5,Lanzarote,Arrecife,Teguise,Administrativo/a,Educación Secundaria,3005PBD,True
+Manu,Baeza,19658977K,susanita07@example.com,+34 888 180 592,1999-09-19,Coach vocal,Ensemble,Colaborador,4,Gran Canaria,Telde,Telde,Administrativo/a,Doctorado en Música,5620KXT,True
+Gloria,Alfonso,25186078g,ricardo77@example.com,+34 846074709,1960-11-13,Alto (coro),Ensemble,Invitado,6,Lanzarote,San Bartolomé,Teguise,Profesor/a,Grado en Música,3435LDC,False
