@@ -18,7 +18,8 @@ class App:
 
         # Login window
         self.root = root
-        self.ventana_login = root
+        self.root.withdraw()
+        self.ventana_login = Toplevel(root)
         self.ventana_login.title("Inicio de sesión")
         screen_width = self.ventana_login.winfo_screenwidth()
         screen_height = self.ventana_login.winfo_screenheight()
@@ -49,12 +50,12 @@ class App:
 
     def main_window(self):
         # Main window
-        if hasattr(self, 'ventana_main'):
+        if hasattr(self, 'ventana_main') and self.ventana_main.winfo_exists():
             for widget in self.ventana_main.winfo_children():
                 widget.destroy()
         else:
-            self.ventana_main = self.root
-            self.ventana_login.withdraw()
+            self.ventana_main = Toplevel(self.root)
+            self.ventana_login.destroy()
         self.ventana_main.title("DB")
         screen_width = self.ventana_main.winfo_screenwidth()
         screen_height = self.ventana_main.winfo_screenheight()
@@ -63,7 +64,7 @@ class App:
         self.ventana_main.geometry(f"{window_width}x{window_height}+{int((screen_width-window_width)/2)}+{int((screen_height-window_height)/2)}")
         self.ventana_main.resizable(True, True)
         #self.ventana_main.iconbitmap(resource_path("images/logo.ico"))
-        self.ventana_main.protocol("WM_DELETE_WINDOW", lambda: on_closing(self))
+        self.ventana_main.protocol("WM_DELETE_WINDOW", lambda: self.root.destroy())
 
         self.actualizar_columnas()
 
