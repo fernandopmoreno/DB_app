@@ -69,8 +69,8 @@ class App:
         self.actualizar_columnas()
 
         # Frame to hold the filter options and buttons
-        frame_options = Frame(self.ventana_main)
-        frame_act_tabla = Frame(frame_options)
+        self.frame_options = Frame(self.ventana_main)
+        frame_act_tabla = Frame(self.frame_options)
 
         # Agrupaciones in database
         frame_group = Frame(frame_act_tabla)        
@@ -147,7 +147,7 @@ class App:
 
         frame_buttons.pack()
         frame_act_tabla.pack(expand=True, fill=BOTH, anchor=NW)
-        frame_options.grid(row=1, column=0, padx=5)
+        self.frame_options.grid(row=1, column=0, padx=5)
 
         # Initialize the table frame
         self.frame_tabla = Frame(self.ventana_main)
@@ -185,6 +185,7 @@ class App:
         self.tabla.pack()
         for key in columnas:
             self.tabla.heading(key, text=all_data_columns_dictionary[key])
+            self.tabla.column(key, width=int((self.ventana_main.winfo_width()-self.frame_options.winfo_width()-50)/len(columnas)))
         for row in rows:
             self.tabla.insert("", "end", values=row)
         return
