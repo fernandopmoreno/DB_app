@@ -266,13 +266,13 @@ class App:
     def create_file(self):
         # Create file window
         self.ventana_listado = Toplevel()
-        self.ventana_listado.title("Crear PDF")
+        self.ventana_listado.title("Crear listado")
         screen_width = self.ventana_listado.winfo_screenwidth()
         screen_height = self.ventana_listado.winfo_screenheight()
         window_width = int(screen_width * 0.25)
         window_height = int(screen_height * 0.8)
         self.ventana_listado.geometry(f"{window_width}x{window_height}+{int((screen_width-window_width)/2)}+{int((screen_height-window_height)/2)}")
-        #self.ventana_listado.iconbitmap(resource_path("images/logo_ocgc_ico.ico"))
+        #self.ventana_listado.iconbitmap(resource_path("images/logo.ico"))
 
         frame_pdf_agroup_sec = Frame(self.ventana_listado)
 

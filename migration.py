@@ -50,7 +50,7 @@ def dels_to_minus(dato):
 
 # Function to read an Excel file and add users to the database
 def read_excel(app):
-    filename = askopenfilename(filetypes=[("Archivos Excel", "*.xlsx;*.xls")])
+    filename = askopenfilename(filetypes=[("Archivos Excel", "*.xlsx"), ("Archivos Excel", "*.xls")])
     if filename:
         def add_users_from_excel(app):
             df = pd.read_excel(filename)
@@ -65,7 +65,7 @@ def read_csv(app):
     if filename:
         def process_csv(app):
             with open(filename, 'r', encoding='utf-8') as file:
-                df = pd.read_csv(file, encoding='utf-8', errors='replace')
+                df = pd.read_csv(file, encoding='utf-8')
                 df = df.replace(np.nan, None)
                 data_to_tables(app, df)
             app.progress_window.after(0, app.main_window)
