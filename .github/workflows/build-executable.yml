@@ -1,0 +1,114 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*' # e.g. v1.0.0, v1.2.3
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            path_separator: ";"
+          - os: ubuntu-latest
+            path_separator: ":"
+          - os: macos-latest
+            path_separator: ":"
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install Tkinter on Linux
+      if: runner.os == 'Linux'
+      run: sudo apt-get update && sudo apt-get install -y python3-tk
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      shell: bash
+
+    - name: Build executable with PyInstaller
+      run: |
+        pyinstaller --name "DB_app" --windowed \
+          --add-data "csv${{ matrix.path_separator }}csv" \
+          --add-data "doc${{ matrix.path_separator }}doc" \
+          --add-data "excel${{ matrix.path_separator }}excel" \
+          --add-data "fonts${{ matrix.path_separator }}fonts" \
+          --add-data "images${{ matrix.path_separator }}images" \
+          --add-data "pdfs${{ matrix.path_separator }}pdfs" \
+          --add-data "sql${{ matrix.path_separator }}sql" \
+          --add-data "tables${{ matrix.path_separator }}tables" \
+          main.py
+      shell: bash
+
+    - name: Package Windows executable
+      if: runner.os == 'Windows'
+      run: Compress-Archive -Path dist/DB_app -DestinationPath dist/DB_app-windows.zip
+      shell: powershell
+
+    - name: Package Linux executable
+      if: runner.os == 'Linux'
+      run: tar -czvf dist/DB_app-linux.tar.gz -C dist DB_app
+      shell: bash
+
+    - name: Package macOS application
+      if: runner.os == 'macOS'
+      run: hdiutil create -volname "DB_app" -srcfolder "dist/DB_app.app" -ov -format UDZO "dist/DB_app.dmg"
+      shell: bash
+
+    - name: Upload Windows artifact
+      if: runner.os == 'Windows'
+      uses: actions/upload-artifact@v4
+      with:
+        name: DB_app-windows
+        path: dist/DB_app-windows.zip
+
+    - name: Upload Linux artifact
+      if: runner.os == 'Linux'
+      uses: actions/upload-artifact@v4
+      with:
+        name: DB_app-linux
+        path: dist/DB_app-linux.tar.gz
+
+    - name: Upload macOS artifact
+      if: runner.os == 'macOS'
+      uses: actions/upload-artifact@v4
+      with:
+        name: DB_app-macos
+        path: dist/DB_app.dmg
+
+  release:
+    name: Create GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to create a release and upload assets
+
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts/
+
+      - name: Create Release and Upload Assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            artifacts/DB_app-windows/DB_app-windows.zip
+            artifacts/DB_app-linux/DB_app-linux.tar.gz
+            artifacts/DB_app-macos/DB_app.dmg
+          body: "Automated release for ${{ github.ref_name }}"
