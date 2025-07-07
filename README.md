@@ -13,30 +13,36 @@ This project is a Python-based data management and migration application designe
 
 ## Project Structure
 
-```
-DB_app/
-│
-├── csv/                  # Storage for .csv data
-├── doc/                  # Storage for Word documents
-├── excel/                # Storage for .xlsx, .xls data
-├── fonts/                # Font files
-├── images/               # Images used
-├── pdfs/                 # Storage for PDFs
-├── sql/                  # .sql files for database table creation
-├── tables/               # Exported table data
-├── app.py                # Main application interface
-├── aux_functions.py      # Auxiliary functions
-├── listados.py           # Functions for dumping data to files
-├── main.py               # Main application entry point
-├── migration.py          # Data import and export functions
-├── models.py             # User model for the database
-├── orders.py             # Filter structuring
-├── pdf.py                # PDF class modification
-├── export.py             # Functions for exporting data to CSV
-├── requirements.txt      # Project dependencies
-├── tolltip.py            # Modification of Tkinter's TollTip class
-└── users_generator.py    # Fake data generation
-```
+The project is organized into the following directories and files:
+
+### Source Code (`.py` files)
+
+-   `main.py`: The main entry point to launch the application.
+-   `app.py`: Defines the main Tkinter GUI, its layout, and event handling.
+-   `migration.py`: Contains functions for importing and exporting data between the database and local files.
+-   `export.py`: Handles the logic for exporting database tables to CSV format.
+-   `listados.py`: Manages the generation of various data listings and reports.
+-   `pdf.py`: Custom modifications or extensions for PDF generation functionalities.
+-   `users_generator.py`: A utility for generating fake user data for testing purposes.
+-   `aux_functions.py`: A collection of helper and utility functions used across the application.
+-   `models.py`: Defines the data models, likely for database interaction (e.g., User model).
+-   `orders.py`: Manages the structuring and filtering of data orders or queries.
+-   `tolltip.py`: A custom modification of the Tkinter Tooltip class for enhanced UI feedback.
+
+### Data and Asset Directories
+
+-   `csv/`: Default directory for storing and reading CSV data files.
+-   `doc/`: Storage for generated Word documents.
+-   `excel/`: Default directory for storing and reading Excel files (`.xlsx`, `.xls`).
+-   `fonts/`: Contains font files used by the application (e.g., for PDF generation).
+-   `images/`: Stores images used within the application's GUI.
+-   `pdfs/`: Default directory for storing generated PDF files.
+-   `sql/`: Contains SQL scripts, such as `create_tables.sql`, for database setup.
+-   `tables/`: Directory for storing data exported from database tables.
+
+### Configuration
+
+-   `requirements.txt`: Lists all the Python dependencies required to run the project.
 
 ## Installation
 

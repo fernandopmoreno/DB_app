@@ -41,11 +41,6 @@ def on_double_click(app, event):
     entry_edit.place(x=column_box[0], y=column_box[1], w=column_box[2], h=column_box[3])
     return
 
-# Function to handle closing the application
-def on_closing(app):
-    if messagebox.askokcancel("Quit", "¿Quiere salir del programa?"):
-        app.ventana_main.destroy()
-
 # Delete the Entry widget when focus is lost
 def on_focus_out(event):
     event.widget.destroy()
