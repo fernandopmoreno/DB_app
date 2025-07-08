@@ -58,7 +58,7 @@ jobs:
 
     - name: Package macOS application
       if: runner.os == 'macOS'
-      run: hdiutil create -volname "DB_app" -srcfolder "dist/DB_app.app" -ov -format UDZO "dist/DB_app.dmg"
+      run: hdiutil create -volname "DB_app" -srcfolder "dist/DB_app" -ov -format UDZO "dist/DB_app.dmg"
       shell: bash
 
     - name: Upload Windows artifact
