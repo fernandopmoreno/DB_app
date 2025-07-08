@@ -87,6 +87,19 @@ The project is organized into the following directories and files:
         User Password: admin1234
         ```
 
+## Downloads
+
+To use the application without installing Python or its dependencies, you can download the pre-compiled executable for your operating system.
+
+1.  Go to the **[Releases](https://github.com/fernanpemo/DB_app/releases)** page of this repository.
+2.  Find the latest release (e.g., `v1.0.0`).
+3.  In the **Assets** section, download the appropriate file for your system:
+    -   **Windows**: `DB_app-windows.zip`
+    -   **Linux**: `DB_app-linux.tar.gz`
+    -   **macOS**: `DB_app.dmg`
+4.  Once downloaded, decompress the file (`.zip` or `.tar.gz`) or mount the `.dmg` file.
+5.  Run the `DB_app` executable inside the resulting folder.
+
 ## Usage
 
 1. Back to the main folder run the main application:

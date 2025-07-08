@@ -43,16 +43,7 @@ jobs:
 
     - name: Build executable with PyInstaller
       run: |
-        pyinstaller --name "DB_app" --windowed \
-          --add-data "csv${{ matrix.path_separator }}csv" \
-          --add-data "doc${{ matrix.path_separator }}doc" \
-          --add-data "excel${{ matrix.path_separator }}excel" \
-          --add-data "fonts${{ matrix.path_separator }}fonts" \
-          --add-data "images${{ matrix.path_separator }}images" \
-          --add-data "pdfs${{ matrix.path_separator }}pdfs" \
-          --add-data "sql${{ matrix.path_separator }}sql" \
-          --add-data "tables${{ matrix.path_separator }}tables" \
-          main.py
+        pyinstaller DB_app.spec
       shell: bash
 
     - name: Package Windows executable

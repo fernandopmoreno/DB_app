@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter import *
 from dotenv import load_dotenv
 
-from aux_functions import obtener_tabla, on_closing, on_double_click, on_write, resource_path
+from aux_functions import obtener_tabla, on_double_click, on_write, resource_path
 from list_files import listado_pdf, listado_word
 from migration import *
 from orders import all_data_columns_dictionary, all_data_columns_dictionary_inv
