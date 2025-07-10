@@ -5,6 +5,7 @@ a = Analysis(['main.py'],
     pathex=['.'],
     binaries=[],
     datas=[
+       ('.env', '.'),
        ('csv', 'csv'),
        ('doc', 'doc'),
        ('excel', 'excel'),

@@ -40,7 +40,7 @@ class App:
         self.login_widgets = [user_label, self.user_entry, password_label, self.password_entry, button_remote]
 
     def connect(self):
-        load_dotenv(override=True)
+        load_dotenv(dotenv_path=resource_path('.env'), override=True)
         self.supabase = create_client(
             # .env in project must contain URL and KEY for Supabase
             os.getenv("URL"),
