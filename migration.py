@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 from supabase import create_client
 
+from aux_functions import resource_path
 from models import User
 
 # Function to connect to the Supabase database and authenticate the user
@@ -117,6 +118,6 @@ def export(app):
     for t in tablas:
         data = app.supabase.table(t).select("*").execute()
         df = pd.DataFrame(data.data)
-        df.to_csv(f"tables/tabla_{t}.csv", index=False)
+        df.to_csv(resource_path(f"tables/tabla_{t}.csv"), index=False)
     messagebox.showinfo("Exportación completada", 
                         "Las tablas se han exportado correctamente a archivos CSV en la carpeta 'tables'.")
