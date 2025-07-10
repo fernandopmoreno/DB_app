@@ -2,6 +2,17 @@
 
 This project is a Python-based data management and migration application designed to facilitate the import, export, and manipulation of information in a Supabase database. It includes a graphical interface developed with Tkinter and utilities for working with CSV and Excel files.
 
+## Contents
+- [Features](#fearutes)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Downloads](#downloads)
+- [Supabase setup](#supabase-setup)
+- [Usage](#usage)
+- [Notes](#notes)
+- [License](#license)
+
+
 ## Features
 
 - **Data import** from Excel files (`.xlsx`, `.xls`) and CSV.
@@ -66,27 +77,6 @@ The project is organized into the following directories and files:
     pip install -r requirements.txt
     ```
 
-4. **Configure Supabase:**
-    ```bash
-    git clone --depth 1 https://github.com/supabase/supabase
-    cd supabase/docker
-    copy .env.example .env #cp .env.example .env for linux
-    docker compose up -d
-    ```
-
-5. **Database setup:**
-    - Go to http://localhost:8000  
-        ```bash
-        User: supabase
-        Password: this_password_is_insecure_and_should_be_updated
-        ```
-    - In the SQL Editor section, execute the SQL statements found in the file `sql/create_tables.sql` to create the tables.
-    - In the Authentication section, create a new user. Example:
-        ```bash
-        Email adress: admin@admin.com
-        User Password: admin1234
-        ```
-
 ## Downloads
 
 To use the application without installing Python or its dependencies, you can download the pre-compiled executable for your operating system.
@@ -99,6 +89,31 @@ To use the application without installing Python or its dependencies, you can do
     -   **macOS**: `DB_app.dmg`
 4.  Once downloaded, decompress the file (`.zip` or `.tar.gz`) or mount the `.dmg` file.
 5.  Run the `DB_app` executable inside the resulting folder.
+
+## Supabase setup
+
+1. **Configure Supabase:**
+    ```bash
+    git clone --depth 1 https://github.com/supabase/supabase
+    cd supabase/docker
+    copy .env.example .env #cp .env.example .env for linux
+    docker compose up -d
+    ```
+
+2. **Database setup:**
+    - Go to http://localhost:8000  
+        ```bash
+        User: supabase
+        Password: this_password_is_insecure_and_should_be_updated
+        ```
+    - In the SQL Editor section, execute the SQL statements found in the file `sql/create_tables.sql` to create the tables.
+    - In the Authentication section, create a new user. Example:
+        ```bash
+        Email adress: admin@admin.com
+        User Password: admin1234
+        ```
+
+
 
 ## Usage
 
