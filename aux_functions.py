@@ -98,9 +98,10 @@ def obtener_tabla(agrupaciones, secciones, columnas, activos, orden, app):
 
 # Function to get the resource path for bundled files
 def resource_path(relative_path):
-    try:
+    if hasattr(sys, '_MEIPASS'):
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
         base_path = sys._MEIPASS
-    except Exception:
+    else:
         base_path = os.path.abspath(".")
 
     return os.path.join(base_path, relative_path)

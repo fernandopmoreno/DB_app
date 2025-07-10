@@ -13,11 +13,8 @@ jobs:
       matrix:
         include:
           - os: windows-latest
-            path_separator: ";"
           - os: ubuntu-latest
-            path_separator: ":"
           - os: macos-latest
-            path_separator: ":"
 
     runs-on: ${{ matrix.os }}
 
@@ -42,9 +39,7 @@ jobs:
       shell: bash
 
     - name: Build executable with PyInstaller
-      run: |
-        pyinstaller DB_app.spec
-      shell: bash
+      run: pyinstaller --noconfirm DB_app.spec
 
     - name: Package Windows executable
       if: runner.os == 'Windows'

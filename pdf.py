@@ -11,7 +11,7 @@ class PDF(FPDF):
 
     def header(self):
         if 'DejaVu' not in self.fonts:
-            self.add_font('DejaVu', '', 'fonts/DejaVuSans.ttf', uni=True)
+            self.add_font('DejaVu', '', resource_path('fonts/DejaVuSans.ttf'), uni=True)
         self.set_font('DejaVu', '', 12)
         self.set_text_color(0, 0, 0)
         #self.image(resource_path("images/logo.png"), x=12, y=10, h=16)
