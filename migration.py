@@ -118,6 +118,7 @@ def export(app):
     for t in tablas:
         data = app.supabase.table(t).select("*").execute()
         df = pd.DataFrame(data.data)
-        df.to_csv(resource_path(f"tables/tabla_{t}.csv"), index=False)
+        path = resource_path(f"tables/tabla_{t}.csv")
+        df.to_csv(path, index=False)
     messagebox.showinfo("Exportación completada", 
-                        "Las tablas se han exportado correctamente a archivos CSV en la carpeta 'tables'.")
+                        f"Las tablas se han exportado correctamente a archivos CSV en {path}.")
