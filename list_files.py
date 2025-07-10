@@ -208,11 +208,19 @@ def next_table(pdf, grupo, tabla, ancho_columnas):
 # Function to insert a table into the PDF document
 def insertar_tabla(tabla, pdf, anchos):
     longitudes = [int(item) for item in anchos.split(", ")]
-    pdf.set_font("Helvetica", "", 12)
-    elemento(tabla[0], pdf, longitudes, altura=9, fill=True)
-    for miembro in tabla[1:]:
-        elemento(miembro, pdf, longitudes)
-    pdf.ln()
+    if len(longitudes) != len(tabla[0]):
+        messagebox.showerror("Error", "El número de columnas no coincide con el número de anchos especificados para las mismas.")
+        return
+    else:
+        for ancho in longitudes:
+            if ancho < 0:
+                messagebox.showerror("Error", "Los anchos de las columnas deben ser mayores o iguales a 0.")
+                return
+        pdf.set_font("Helvetica", "", 12)
+        elemento(tabla[0], pdf, longitudes, altura=9, fill=True)
+        for miembro in tabla[1:]:
+            elemento(miembro, pdf, longitudes)
+        pdf.ln()
     return
 
 # Function to create a table cell in the PDF document
