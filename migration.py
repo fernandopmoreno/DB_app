@@ -10,24 +10,28 @@ from models import User
 
 # Function to connect to the Supabase database and authenticate the user
 def login(app, user, password):
-    try:
-        response = app.supabase.auth.sign_in_with_password(
-            {
-                "email": user,
-                "password": password
-            }
-        )
-        if hasattr(response, "error") and response.error:
-            messagebox.showerror("Error de autenticación", "No se pudo autenticar al usuario. Por favor, verifique sus credenciales.")
+    if user != "" and password != "":
+        try:
+            response = app.supabase.auth.sign_in_with_password(
+                {
+                    "email": user,
+                    "password": password
+                }
+            )
+            if hasattr(response, "error") and response.error:
+                messagebox.showerror("Error de autenticación", "No se pudo autenticar al usuario. Por favor, verifique sus credenciales.")
+                return
+            else:
+                messagebox.showinfo("Conexión exitosa", "Conexión exitosa a la base de datos")
+                for widget in app.login_widgets:
+                    widget.destroy()
+                app.main_window()
+                return
+        except Exception as e:
+            messagebox.showerror("Error de autenticación", f"No se pudo autenticar al usuario. Error: {e}")
             return
-        else:
-            messagebox.showinfo("Conexión exitosa", "Conexión exitosa a la base de datos")
-            for widget in app.login_widgets:
-                widget.destroy()
-            app.main_window()
-            return
-    except Exception as e:
-        messagebox.showerror("Error de autenticación", f"No se pudo autenticar al usuario. Error: {e}")
+    else:
+        messagebox.showwarning("Credenciales faltantes", "Por favor, ingrese su usuario y contraseña para conectarse a la base de datos.")
         return
 
 # Function to format date strings to "YYYY-MM-DD"
