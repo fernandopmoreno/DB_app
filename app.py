@@ -24,6 +24,8 @@ class App:
         screen_height = self.ventana_login.winfo_screenheight()
         self.ventana_login.geometry(f"+{int(screen_width/2) - 100}+{int(screen_height/2) - 100}")
         #self.ventana_login.iconbitmap(resource_path("images/logo.ico"))
+        self.ventana_login.protocol("WM_DELETE_WINDOW", lambda: self.root.destroy())
+
 
         user_label = Label(self.ventana_login, text="Usuario:")
         user_label.pack(padx=10)
